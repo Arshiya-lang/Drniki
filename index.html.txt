@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ارتباط با ما</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: auto;
+        }
+        .logo {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .instagram { background-color: #E4405F; }
+        .whatsapp { background-color: #25D366; }
+        .website { background-color: #007BFF; }
+        .btn:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>با ما در ارتباط باشید</h2>
+        
+        <!-- عکس با لینک اینستاگرام -->
+        <a href="https://instagram.com/Nava.clinic" target="_blank">
+            <img scr="https://github.com/Arshiya-lang/Drniki/blob/main/niki.jpg" alt="عکس شما" class="logo">
+        </a>
+
+        <!-- دکمه‌ها -->
+        <div class="buttons">
+            <a href="https://instagram.com/Nava.clinic" target="_blank" class="btn instagram">اینستاگرام</a>
+            <a href="https://wa.me/09055099931" target="_blank" class="btn whatsapp">واتساپ</a>
+            <a href="https://instagram.com/virtual_visits" target="_blank" class="btn website">ویزیت مجازی</a>
+        </div>
+    </div>
+
+</body>
+</html>
